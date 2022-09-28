@@ -12,8 +12,16 @@ header.banner {
     height: 20rem;
 }
 
+main {
+    background-color: rgb(153, 153, 153);
+}
+
+section {
+    background-color: whitesmoke;
+    padding: 5px;
+}
+
 h1 {
-    margin-top: 6rem;
     margin-bottom: 0;
     margin-left: 1rem;
     color: azure;
@@ -72,16 +80,15 @@ p {
     padding: 1rem;
 }
 
-.info-left {
-    height: 100%;
-    width: 50%;
-    float: left;
+.main-text {
+    padding: 1rem;
+    margin: 1rem;
 }
 
-.info-right {
-    height: 100%;
-    width: 50%;
-    float: right;
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
 }
 
 .p-none {
@@ -97,7 +104,7 @@ p {
 }
 
 .p-1 {
- padding: 1rem;
+    padding: 1rem;
 }
 
 .button {
@@ -135,4 +142,13 @@ p {
     color: white;
     padding-top: 5%;
     font-size: 30px;
+}
+
+img {
+    margin-top: 3rem;
+    width: 500px;
+}
+
+hr {
+    border: black solid 3px;
 }
